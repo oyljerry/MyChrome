@@ -1,0 +1,10 @@
+{
+	"name": "com.myext.mymsg",
+	"description": "Chrome Native Messaging API Host",
+	"path": "extMsg.exe",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://mhpfpphfkoejnnhanmamamfiafonbmcl/"
+	]
+}
+ 

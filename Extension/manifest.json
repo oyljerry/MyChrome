@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "mymsg",
+	"description": "This extension is self-study.",
+	"version": "1.0.1088",
+
+	"background": {"page": "background.html"},
+	
+	"icons": { "16": "logo_icon16.png", "48": "logo_icon48.png"},
+
+	"browser_action": {
+		"default_icon": "logo_icon16.png",
+		"default_popup": "popup.html"
+	},
+	
+
+	"permissions": [
+		"http://*/*", 
+		"https://*/*", 
+		"tabs",
+		"nativeMessaging",
+		"cookies"
+	]
+}
